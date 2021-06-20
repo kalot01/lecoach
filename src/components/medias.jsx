@@ -1,9 +1,9 @@
-export const Partenaires = (props) => {
+export const Media = (props) => {
     return (
-      <div id='partenaires' className='text-center'>
+      <div id='media' className='text-center'>
         <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>Nos Partenaires</h2>
+          <h2>Nos Médias</h2>
         </div>
           <div className='row'>
             {props.data
