@@ -1,0 +1,125 @@
+{
+    "Header": {
+
+        "title": "LeCoach",
+        "paragraph": "La première société qui encadre les jeunes entrepreneurs et les accompagne dans tout dont il besoin de compétences personnelles."
+
+    },
+    "About": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/06.jpg",
+            "text": "\"j'étais très satisfaite avec la formation Public Speaking a ISG bizerte 💪💙 Merci @fedyHamza 😊.\"",
+            "name": "Sarra Ben Mustapha"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"bravooo coach fady j étais très satisfait avec la formation Public Speaking Sfax.\"",
+            "name": "Walid Waleed"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Tbarkallah 3lih @Hamza fedi très professionnel f formation public speaking isg Bizerte.\"",
+            "name": "Asma Ja"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/fedy_hamza.jpg",
+            "name": "Fedy Hamza",
+            "job": "CEO"
+        },
+        {
+            "img": "img/team/Alaa.JPG",
+            "name": "Debbichi Alâa",
+            "job": "Dormateur Accrédité"
+        },
+        {
+            "img": "img/team/fida-talbi.jpg",
+            "name": "Fida Talbi",
+            "job": "COA, Creatoe, Designer"
+        }, {
+            "img": "img/team/khiarieddine.JPG",
+            "name": "Khaireddine Ben Rebah",
+            "job": "Formateur Certifié"
+        },
+        {
+            "img": "img/team/masmoudi-aymen.jpg",
+            "name": "Aymen Masmoudi",
+            "job": "Développeur"
+        }
+    ],
+    "Contact": {
+        "address": "Nouvelle Medina, Ben Arous ",
+        "phone": "+216 23 908 195",
+        "email": "contact@lecoach.tn",
+        "facebook": "https://www.facebook.com/LeCoach.Tn/",
+        "instagram": "https://www.instagram.com/lecoach.tn/"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "ATTITUDE",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title": "RESPONSABILITÉS",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "RELATIONS",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "ACTION",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
