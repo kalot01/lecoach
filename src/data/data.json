@@ -121,5 +121,32 @@
             "title": "ACTION",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
-    ]
+    ],
+    "Partenaires":[{
+        "icon": "fa fa-comments-o"
+    },
+    {
+        "icon": "fa fa-bullhorn"
+       
+    },
+    {
+        "icon": "fa fa-group"
+        
+    },
+    {
+        "icon": "fa fa-magic"
+    },
+    {
+        "icon": "fa fa-magic"
+    },
+    {
+        "icon": "fa fa-magic"
+    },
+    {
+        "icon": "fa fa-magic"
+    },
+    {
+        "icon": "fa fa-magic"
+    }
+]
 }
