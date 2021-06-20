@@ -123,30 +123,38 @@
         }
     ],
     "Partenaires":[{
-        "icon": "fa fa-comments-o"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     },
     {
-        "icon": "fa fa-bullhorn"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
        
     },
     {
-        "icon": "fa fa-group"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
         
     },
     {
-        "icon": "fa fa-magic"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     },
     {
-        "icon": "fa fa-magic"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     },
     {
-        "icon": "fa fa-magic"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     },
     {
-        "icon": "fa fa-magic"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     },
     {
-        "icon": "fa fa-magic"
+        "img": "img/téléchargement.png",
+        "name": "Aymen Masmoudi"
     }
 ]
 }
