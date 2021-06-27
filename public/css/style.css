@@ -568,7 +568,81 @@ color: #777;
 }
 
 @media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
+	#about img {
+		margin: 50px 0;
+	}
+
 }
+
+.formation-banner{
+	padding: 50px ;
+}
+
+.formation-banner:first-child{
+	padding-top: 120px;
+}
+
+@media(max-width: 992px ){
+	.formation-banner:first-child{
+		padding-top: 40vh;
+	}
+	
+	.formation-date-holder{
+		padding: 0 20vw;
+	}
+}
+
+/* .formation-landing-page{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+} */
+
+.formation-title h1{
+	font-size: 3.5rem;
+	color: #333;
+}
+
+.formation-title p{
+	font-size: 2rem;
+}
+
+.formation-formateur{
+	display: flex;
+}
+
+.formation-subscription, .formation-content{
+	padding: 20px;
+	margin: 10px 0;
+}
+
+.formation-content.container{
+	width: fit-content;
+}
+
+.formation-subscription{
+	background: linear-gradient(to right, #000000 20%, #14172a 100%);
+    color: rgba(255,255,255,.75);
+	border-radius: 8px;
+	text-align: center;
+	max-height: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.formation-subscription span{
+	font-size: 3rem;
+	text-align: initial;
+	font-weight: 600;
+	line-height: 75px;
+	user-select: none;
+}
+
+.disabled-btn{
+	background-color: #999;
+	font-weight: 700;
+}
+
+.disabled-btn:hover{
+	color: #c12026;
 }

@@ -1,16 +1,11 @@
 import { useState, useEffect } from 'react'
 import { Navigation } from './components/navigation'
-import { Header } from './components/header'
-import { Features } from './components/features'
-import { About } from './components/about'
-import { Services } from './components/services'
-import{Partenaires} from './components/partenaires'
-import { Testimonials } from './components/testimonials'
-import { Team } from './components/Team'
-import {Media} from './components/medias'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Cockpit from './components/cockpit'
+import Formation from './components/formation'
 
 
 
@@ -20,25 +15,21 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 })
 
 const App = () => {
- 
+
   const [landingPageData, setLandingPageData] = useState({})
   useEffect(() => {
     setLandingPageData(JsonData)
   }, [])
 
- 
+
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Media data={landingPageData.Media}/>
-      <Partenaires data={landingPageData.Partenaires} />
-      <Contact data={landingPageData.Contact} />
+      <BrowserRouter>
+        <Navigation />
+        <Route exact path='/' component={Cockpit} />
+        <Route exact path='/category/:id/' component={Formation} /> {/* Change the componant ! */}
+        <Contact data={landingPageData.Contact} />
+      </BrowserRouter>
     </div>
   )
 }

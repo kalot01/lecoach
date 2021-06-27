@@ -1,4 +1,13 @@
+import { useHistory } from "react-router-dom";
+
 export const Navigation = (props) => {
+
+  const _history = useHistory()
+  const navigationBtnAction = (event,path) => {
+    _history.replace('/')
+    // event.preventDefault()
+  }
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -16,7 +25,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <img src="img\cropped-LeCoach-log-2-2.png" />
+            <img src="/img/cropped-LeCoach-log-2-2.png" />
           </a>{' '}
         </div>
 
@@ -26,32 +35,32 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='#features' className='page-scroll' onClick={navigationBtnAction}>
               accueil
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <a href='#about' className='page-scroll' onClick={navigationBtnAction}>
                 Qui Sommes Nous 
               </a>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='#services' className='page-scroll' onClick={navigationBtnAction}>
                 Catégories
               </a>
             </li>
             <li>
-              <a href='#team' className='page-scroll'>
+              <a href='#team' className='page-scroll' onClick={navigationBtnAction}>
                 Equipe
               </a>
             </li>
             <li>
-              <a href='#partenaires' className='page-scroll'>
+              <a href='#partenaires' className='page-scroll' onClick={navigationBtnAction}>
               Nos partenaires
               </a>
             </li>
             <li>
-              <a href='#contact' className='page-scroll'>
+              <a href='#contact' className='page-scroll' onClick={navigationBtnAction}>
                 Nous Contacter
               </a>
             </li>
