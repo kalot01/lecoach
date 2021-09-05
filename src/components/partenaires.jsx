@@ -29,7 +29,6 @@ export const Partenaires = () => {
       .then(({ data, errors }) => {
         if (errors) {
           console.error(errors);
-          console.log("goooo");
         }
 
         // rerender the entire component with new data
