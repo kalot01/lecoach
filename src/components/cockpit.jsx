@@ -58,7 +58,7 @@ const Cockpit = (props) => {
     <>
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
+      {/* <About data={landingPageData.About} /> */}
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team />

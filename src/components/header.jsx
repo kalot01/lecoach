@@ -11,7 +11,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
+                {/* <a
                   href="#services"
                   className="btn btn-custom btn-lg page-scroll"
                 >
@@ -22,7 +22,7 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll b2"
                 >
                   Certificat
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

@@ -94,8 +94,8 @@ hr {
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
-  border-radius: 0;
-  margin: 10px 20px 0 20px;
+  border-radius: 5px;
+  margin: 5px 20px 0 20px;
 }
 nav#menu {
   height: 20px;
@@ -181,11 +181,9 @@ nav#menu {
   transition: all 0.5s linear;
   border: 0;
 }
-.b2 {
-  margin-left: 15px;
-}
+
 .img-logo {
-  max-height: 30px;
+  height: 20px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
