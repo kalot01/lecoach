@@ -82,7 +82,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -91,8 +91,8 @@ hr {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 200;
   padding: 8px 2px;
   border-radius: 5px;
   margin: 5px 20px 0 20px;
@@ -188,8 +188,9 @@ nav#menu {
 }
 
 .img-logo {
+  margin-top: -7px;
   margin-right: -50px;
-  height: 25px;
+  height: 30px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
