@@ -111,6 +111,11 @@ nav#menu {
   content: "";
   transition: width 0.2s;
 }
+
+#menu.navbar-default .navbar-nav > li > .btn-custom {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 #menu.navbar-default .navbar-nav > li > a:hover:after {
   width: 100%;
 }
@@ -183,7 +188,8 @@ nav#menu {
 }
 
 .img-logo {
-  height: 20px;
+  margin-right: -50px;
+  height: 25px;
 }
 .btn-custom:hover,
 .btn-custom:focus,
