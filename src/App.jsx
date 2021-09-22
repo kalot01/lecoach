@@ -6,6 +6,7 @@ import SmoothScroll from "smooth-scroll";
 import { BrowserRouter, Route } from "react-router-dom";
 import Cockpit from "./components/cockpit";
 import Formation from "./components/formation";
+import axios from "axios";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -16,6 +17,10 @@ const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
+    axios.get("http://localhost:5000/api/")
+    .then(res=>{
+      console.log(res)
+    })
   }, []);
 
   return (

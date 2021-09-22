@@ -12,7 +12,7 @@ const Formation = (props) => {
   {
     formationCollection{
       items{
-                  titre,
+        titre,
         sousTitre,
         formateur
         prix,
@@ -70,7 +70,7 @@ const Formation = (props) => {
   const [focus, setFocus] = useState(START_DATE);
   const [data, setData] = useState({
     // delete the default data !!
-    title: titre,
+    title: 'titre',
     subtitle:
       "Apprenez Python en partant de 0 et créez des sites web, des applications de bureau ou encore des bots d'automatisation.",
     formateur: "Hriga maffamech",

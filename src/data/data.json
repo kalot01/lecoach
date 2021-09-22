@@ -104,23 +104,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "ATTITUDE",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Qui sommes-nous ?",
+      "text": "Société LeCoach est une société de formation en SOFTSkills et HardSkills. Elle se représente en une équipe de jeunes formateurs et consultants expérimentés et compétents."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "RESPONSABILITÉS",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Publique",
+      "text": "LeCoach est une famille composée de jeunes experts dynamiques qui sont toujours près de notre premier public : Les étudiants."
     },
     {
       "icon": "fa fa-group",
-      "title": "RELATIONS",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Vision",
+      "text": "Notre vision est pousser notre client le futur professionnel vers le succès à travers l'accompagnement, l'encadrement, la formation ..."
     },
     {
       "icon": "fa fa-magic",
-      "title": "ACTION",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Contacts",
+      "text": "Pour nous contacter, choisissez le canal qui vous convient"
     }
   ],
   "Partenaires": [
