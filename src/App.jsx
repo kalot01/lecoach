@@ -17,7 +17,6 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-  
 
   return (
     <div>
@@ -31,5 +30,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;

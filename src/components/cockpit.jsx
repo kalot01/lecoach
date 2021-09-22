@@ -62,7 +62,7 @@ const Cockpit = (props) => {
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team />
-      <Media data={landingPageData.Media} />
+      {/* <Media data={landingPageData.Media} /> */}
       <Partenaires />
     </>
   );

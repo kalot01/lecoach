@@ -1,17 +1,76 @@
 import { useEffect, useState } from "react";
 import parse from "html-react-parser";
 import { DateRangePickerCalendar, START_DATE } from "react-nice-dates";
+
+import axios from "axios";
+
 /* import 'react-nice-dates/build/style.css'; */
 import "react-nice-dates/build/style.css";
 
 const Formation = (props) => {
+  const query = `
+  {
+    formationCollection{
+      items{
+                  titre,
+        sousTitre,
+        formateur
+        prix,
+        type,
+        dateDebut,
+        dateFin
+        description{
+          json
+        }
+      }
+  
+    }
+  }    
+      `;
+  const [formationAPI, setFormationAPI] = useState(null);
+  useEffect(() => {
+    window
+      .fetch(`https://graphql.contentful.com/content/v1/spaces/4zfn01dlewbo/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          // Authenticate the request
+          Authorization: "Bearer QXCGAEP4XobMDiuPrVlM45OQCKMLU9OBHwGXAJB3eEA",
+        },
+        // send the GraphQL query
+        body: JSON.stringify({ query }),
+      })
+      .then((response) => response.json())
+      .then(({ data, errors }) => {
+        if (errors) {
+          console.error(errors);
+        }
+
+        // rerender the entire component with new data
+        setFormationAPI(data.formationCollection.items);
+      });
+  }, []);
+
+  console.log(formationAPI);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:5000/api/coupons", {
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      })
+      .then((result) => {
+        console.log(result.data);
+      });
+  }, []);
   const [couponIsValid, setCouponIsValid] = useState(false);
   const [couponCode, setCouponCode] = useState("");
   const [couponMessage, setCouponMessage] = useState("");
   const [focus, setFocus] = useState(START_DATE);
   const [data, setData] = useState({
     // delete the default data !!
-    title: "La Formation Complète Python",
+    title: titre,
     subtitle:
       "Apprenez Python en partant de 0 et créez des sites web, des applications de bureau ou encore des bots d'automatisation.",
     formateur: "Hriga maffamech",

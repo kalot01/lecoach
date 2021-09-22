@@ -415,7 +415,9 @@ header .intro-text {
   margin: 5px 0;
 }
 #team .team-img {
+  max-height: 338;
   width: 240px;
+  /* max-height: 240px; */
 }
 #team .thumbnail {
   background: transparent;
@@ -441,6 +443,11 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #000000 20%, #14172a 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#partenaires img {
+  max-width: 275;
+  max-height: 183;
 }
 /* Section nos media*/
 #media {

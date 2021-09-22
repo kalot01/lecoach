@@ -39,7 +39,7 @@ export const Team = () => {
       });
   }, []);
 
-  console.log(teamAPI);
+  /* console.log(teamAPI); */
 
   return (
     <div id="team" className="text-center">
