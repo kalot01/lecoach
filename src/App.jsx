@@ -15,14 +15,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-    axios.get("http://localhost:5000/api/")
-    .then(res=>{
-      console.log(res)
-    })
-  }, []);
-
+  
   return (
     <div>
       <BrowserRouter>
